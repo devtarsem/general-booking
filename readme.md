@@ -1,2 +1,4 @@
 # General booking's CRUD Api
 ### welcome to "General booking's CRUD Api"
+this is a general CRUD api's , any developer who want to make a booking application such as swiggy, zomato etc... can use this open source api to build their apps no matter is it a web application or android applicartion.
+futher now we see all the basics things and technologies needed to use this application programming interface(Api)
