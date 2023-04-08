@@ -34,7 +34,8 @@ futher now we see all the basics things and technologies needed to use this appl
 ````
 
 ##### The Api contains these following Routes
-1. {your local host | 127.0.0.1:8600}/api/v1/signup
+1. **{your local host | 127.0.0.1:8600}/api/v1/signup**
+
     * for signup the user this routes is used and the data as follow is passed in ***POST*** request in the body
 ````json
     "username" : "tarsem singh",
