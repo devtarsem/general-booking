@@ -145,7 +145,7 @@ futher now we see all the basics things and technologies needed to use this appl
 ````
 
 6. **{your local host | 127.0.0.1:8600}/api/v1/vendor/update-shop**
-    * This route is used by the vendors to update their shop credentials, this is a ***POST*** and the following data has to be send to the request body.
+    * This route is used by the vendors to update their shop credentials, this is a ***PATCH*** request and the following data has to be send to the request body.
     * see updation is done on these things'
         1. shop name (shopname in body)
         2. shop description (description in body)
@@ -161,4 +161,10 @@ futher now we see all the basics things and technologies needed to use this appl
     "shopname" : "the snakcers and cafe",
     "description" : "fineesh and cleanesh food ready to full fill your hunger"
     }
+````
+
+7. **{your local host | 127.0.0.1:8600}/api/v1/vendor/delete-shop**
+    * This route is used by the vendors to delete their shop from the platform, this is a ***DELETE*** request 
+````json
+    ****A delete sucessfully is returns to the frontend vis res.status(404).send(--message--)****
 ````
