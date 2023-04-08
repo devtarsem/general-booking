@@ -107,3 +107,58 @@ futher now we see all the basics things and technologies needed to use this appl
     "ownerNumber" : 9478100000 
     }
 ````
+
+5. **{your local host | 127.0.0.1:8600}/api/v1/vendor/all-register-shops**
+    *This route gives you all the shops that are registered for business on the platform , it is a ***GET*** request
+        this output is expected, here we are actually ****Populating**** the user keyword from our signUp module
+````json
+    {
+    "status": "ok",
+    "data": {
+        "data": [
+            {
+                "_id": "6430f040225e7e90f17452c5",
+                "user": {
+                    "_id": "6430eff1225e7e90f17452bd",
+                    "username": "tarsem",
+                    "email": "ts346298@gmail.com",
+                    "password": "$2a$12$F7Mkkxi1A6rV8g8uGVHeGe747D9bHAK./feAGKHU8FC0ByvSy/UEi",
+                    "control": "vendor",
+                    "image": "image.jpg",
+                    "__v": 0
+                },
+                "shopname": "the snakcers and cafe",
+                "description": "fineesh and cleanesh food ready to full fill your hunger",
+                "opening": "8Am",
+                "closing": "3Am",
+                "openStatus": "OPEN NOW",
+                "speciality": "120+ dishes",
+                "ownername": "tarsem singh",
+                "ownerNumber": 9478181139,
+                "rating": 5,
+                "menu": [],
+                "__v": 0
+            }
+        ]
+    }
+}
+````
+
+6. **{your local host | 127.0.0.1:8600}/api/v1/vendor/update-shop**
+    * This route is used by the vendors to update their shop credentials, this is a ***POST*** and the following data has to be send to the request body.
+    * see updation is done on these things'
+        1. shop name (shopname in body)
+        2. shop description (description in body)
+        3. opening time (opening in body)
+        4. closing time (closing in body)
+        5. open status (openStatus in body)
+        6. speciality (speciality in body)
+        7. owner name (ownername in body)
+        8. owner number (ownerNumber in body)
+    and the below provided are 2 from these.
+````json
+    {
+    "shopname" : "the snakcers and cafe",
+    "description" : "fineesh and cleanesh food ready to full fill your hunger"
+    }
+````
