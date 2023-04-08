@@ -7,3 +7,12 @@ futher now we see all the basics things and technologies needed to use this appl
 1.) Express.js
 2.) MongoDb
 3.) Node.js
+
+#### Libraries or modules needed
+1.) Mongoose
+2.) jsonwebtokens
+3.) bcrypt
+4.) nodemon
+5.) promisify
+6.) path
+
