@@ -92,3 +92,18 @@ futher now we see all the basics things and technologies needed to use this appl
     }
 }
 ````
+
+4. **{your local host | 127.0.0.1:8600}/api/v1/vendor/register-your-shop**
+    * This route is used by the vendors to register their shop on business, this is a ***POST*** and the following data has to be send to the request body
+````json
+    {
+    "shopname" : "Night canteen",
+    "description" : "best 24X7 food for your happiness",
+    "opening" : "8Am",
+    "closing" : "3Am",
+    "openStatus" : "OPEN NOW",
+    "speciality" : "120+ dishes",
+    "ownername" : "tarsem singh",
+    "ownerNumber" : 9478100000 
+    }
+````
