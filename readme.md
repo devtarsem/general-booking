@@ -16,6 +16,7 @@ futher now we see all the basics things and technologies needed to use this appl
 5. promisify
 6. path
 7. util
+8. dotenv
 
 
 #### How to use this api
@@ -27,10 +28,21 @@ futher now we see all the basics things and technologies needed to use this appl
 ````express
     npm i express
     const app = express()
+    const dotenv = require('dotenv')
+    dotenv.config({path : "./config.env"})
+    const mongoose = require('mongoose')
+    const connect = mongoose.connect(process.env.CONNECTION).then(el=>{console.log("db coneection established")})
     const port = 8600 | process.env.port
     const server = app.listen(port, ()=>{
         console.log(`server is running at ${port}`)
     })
+````
+
+3. make a **config.env** file
+    **use process.env.connection** line to excess this .env file, this file is available all over the application without any import
+````express
+    CONNECTION = "your mongo db connection string"
+    STRING = "your Jsonwebtoken secret string"
 ````
 
 ##### The Api contains these following Routes
