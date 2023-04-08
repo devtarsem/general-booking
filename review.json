@@ -1,0 +1,61 @@
+[
+    {
+        "_id": "6430f315225e7e90f1745317",
+        "rating": 5,
+        "review": "only one word i want to say that is kat lo",
+        "shopname": "nc",
+        "shopid": "6430f040225e7e90f17452c5",
+        "user": "6430f289225e7e90f1745306",
+        "__v": 0
+    }
+    ,
+    {
+        "_id": "6430f315225e7e90f1745317",
+        "rating": 4.5,
+        "review": "only one word i want to say that is kat lo",
+        "shopname": "the snakcers and cafe",
+        "shopid": "6430f040225e7e90f17452c5",
+        "user": "6430f289225e7e90f1745306",
+        "__v": 0
+    }
+    ,
+    {
+        "_id": "6430f315225e7e90f1745310",
+        "rating": 2.5,
+        "review": "only one word i want to say that is kat lo",
+        "shopname": "nc",
+        "shopid": "6430f040225e7e90f17452c5",
+        "user": "6430f289225e7e90f1745306",
+        "__v": 0
+    }
+    ,
+    {
+        "_id": "9430f315225e7e90f1745317",
+        "rating": 5,
+        "review": "only one word i want to say that is kat lo",
+        "shopname": "the snakcers and cafe",
+        "shopid": "6430f040225e7e90f17452c5",
+        "user": "6430f289225e7e90f1745306",
+        "__v": 0
+    }
+    ,
+    {
+        "_id": "9430f315225e7e90f1745317",
+        "rating": 1,
+        "review": "only one word i want to say that is kat lo",
+        "shopname": "nc",
+        "shopid": "6430f040225e7e90f17452c5",
+        "user": "6430f289225e7e90f1745306",
+        "__v": 0
+    }
+    ,
+    {
+        "_id": "9430f315225e7e90f1745313",
+        "rating": 3.5,
+        "review": "only one word i want to say that is kat lo",
+        "shopname": "nc",
+        "shopid": "6430f040225e7e90f17452c5",
+        "user": "6430f289225e7e90f1745306",
+        "__v": 0
+    }
+]
