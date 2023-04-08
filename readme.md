@@ -17,3 +17,9 @@ futher now we see all the basics things and technologies needed to use this appl
 6. path
 7. util
 
+
+#### How to use this api
+```express
+1. first install the packages
+    as npm i mongoose, nodemon, bcryptjs, jsonwebtoken, util, path
+````
